@@ -1,6 +1,6 @@
 name: Cross
 
-on: [push, pull_request, cross]
+on: [push, pull_request, workflow_dispatch]
 
 # Automatically cancel previous runs of this workflow on the same branch
 concurrency:
